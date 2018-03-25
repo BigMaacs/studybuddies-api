@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "user_interested_subject_categories"("id" serial NOT NULL, "user_id"
+      integer NOT NULL, "session_subject_category" integer NOT NULL, PRIMARY KEY ("id")
+      )
+  type: run_sql
+- args:
+    name: user_interested_subject_categories
+  type: add_existing_table_or_view

@@ -1,0 +1,3 @@
+- args:
+    sql: DROP TABLE "user_interested_subject_categories"
+  type: run_sql

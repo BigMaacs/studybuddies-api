@@ -1,0 +1,8 @@
+- args:
+    name: subject_category_expertise
+    table: user
+    using:
+      foreign_key_constraint_on:
+        column: user_id
+        table: user_expertise_subject_category
+  type: create_array_relationship

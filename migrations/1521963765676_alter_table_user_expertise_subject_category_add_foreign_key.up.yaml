@@ -1,0 +1,4 @@
+- args:
+    sql: ALTER TABLE "user_expertise_subject_category" ADD FOREIGN KEY ("subject_category_id")
+      REFERENCES "subject_category" ("id")
+  type: run_sql

@@ -1,0 +1,6 @@
+- args:
+    name: subject_category
+    table: user_interested_subject_categories
+    using:
+      foreign_key_constraint_on: session_subject_category
+  type: create_object_relationship
