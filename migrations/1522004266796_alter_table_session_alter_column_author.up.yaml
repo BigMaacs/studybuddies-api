@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "session" ALTER COLUMN "author" TYPE integer;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "session" ALTER COLUMN "author" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "session" ALTER COLUMN "author" SET NOT NULL;
+  type: run_sql

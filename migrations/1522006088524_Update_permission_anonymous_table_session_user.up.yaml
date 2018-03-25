@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - session_id
+      - user_id
+      - joined
+      filter: {}
+    role: anonymous
+    table: session_user
+  type: create_update_permission

@@ -1,0 +1,4 @@
+- args:
+    relationship: subject_category_intrests
+    table: user
+  type: drop_relationship

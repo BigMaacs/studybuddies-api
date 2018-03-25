@@ -1,0 +1,9 @@
+- args:
+    sql: ALTER TABLE "session" ALTER COLUMN "scheduled_end" TYPE timestamptz;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "session" ALTER COLUMN "scheduled_end" DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "session" ALTER COLUMN "scheduled_end" SET NOT NULL;
+  type: run_sql

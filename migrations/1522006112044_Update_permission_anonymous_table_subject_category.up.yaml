@@ -1,0 +1,13 @@
+- args:
+    role: anonymous
+    table: subject_category
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - id
+      - name
+      filter: {}
+    role: anonymous
+    table: subject_category
+  type: create_update_permission
