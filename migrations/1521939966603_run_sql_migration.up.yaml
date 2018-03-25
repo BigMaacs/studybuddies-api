@@ -1,0 +1,4 @@
+- args:
+    sql: create view session_user_count as (select "session_id", count(user_id) from
+      "session_user" group by "session_id")
+  type: run_sql

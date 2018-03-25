@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "session_user"("session_id" integer NOT NULL, "user_id" integer
+      NOT NULL, "joined" timestamptz NOT NULL DEFAULT now(), PRIMARY KEY ("session_id","user_id")
+      )
+  type: run_sql
+- args:
+    name: session_user
+  type: add_existing_table_or_view
