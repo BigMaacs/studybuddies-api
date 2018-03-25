@@ -1,0 +1,7 @@
+- args:
+    permission:
+      columns: []
+      filter: {}
+    role: anonymous
+    table: session_subject_category
+  type: create_select_permission
