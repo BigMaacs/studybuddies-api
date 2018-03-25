@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "user_expertise_subject_category"("id" serial NOT NULL, "user_id"
+      integer NOT NULL, "subject_category_id" integer NOT NULL, PRIMARY KEY ("id")
+      )
+  type: run_sql
+- args:
+    name: user_expertise_subject_category
+  type: add_existing_table_or_view

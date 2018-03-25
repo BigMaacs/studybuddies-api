@@ -1,0 +1,12 @@
+- args:
+    sql: ALTER TABLE "user_interested_subject_categories" ALTER COLUMN "session_subject_category"
+      TYPE integer;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "user_interested_subject_categories" ALTER COLUMN "session_subject_category"
+      DROP DEFAULT;
+  type: run_sql
+- args:
+    sql: ALTER TABLE "user_interested_subject_categories" ALTER COLUMN "session_subject_category"
+      SET NOT NULL;
+  type: run_sql

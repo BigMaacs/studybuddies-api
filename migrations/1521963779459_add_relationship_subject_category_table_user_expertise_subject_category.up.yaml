@@ -1,0 +1,6 @@
+- args:
+    name: subject_category
+    table: user_expertise_subject_category
+    using:
+      foreign_key_constraint_on: subject_category_id
+  type: create_object_relationship

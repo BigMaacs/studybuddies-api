@@ -1,0 +1,3 @@
+- args:
+    sql: ALTER TABLE "user" ADD COLUMN "user_name" text NUll
+  type: run_sql
