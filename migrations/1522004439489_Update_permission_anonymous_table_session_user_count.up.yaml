@@ -1,0 +1,9 @@
+- args:
+    permission:
+      columns:
+      - session_id
+      - count
+      filter: {}
+    role: anonymous
+    table: session_user_count
+  type: create_select_permission

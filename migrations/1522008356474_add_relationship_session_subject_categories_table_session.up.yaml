@@ -1,0 +1,8 @@
+- args:
+    name: session_subject_categories
+    table: session
+    using:
+      foreign_key_constraint_on:
+        column: session_id
+        table: session_subject_category
+  type: create_array_relationship

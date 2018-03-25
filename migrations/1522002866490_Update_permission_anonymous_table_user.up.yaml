@@ -1,0 +1,13 @@
+- args:
+    permission:
+      columns:
+      - email
+      - expertise
+      - id
+      - interests
+      - name
+      - user_name
+      filter: {}
+    role: anonymous
+    table: user
+  type: create_select_permission
