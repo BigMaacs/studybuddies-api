@@ -1,0 +1,14 @@
+- args:
+    role: anonymous
+    table: session_subject_category
+  type: drop_select_permission
+- args:
+    permission:
+      columns:
+      - session_id
+      - id
+      - subject_category_id
+      filter: {}
+    role: anonymous
+    table: session_subject_category
+  type: create_select_permission
