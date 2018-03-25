@@ -1,0 +1,9 @@
+- args:
+    name: no_members
+    table: session
+    using:
+      manual_configuration:
+        column_mapping:
+          id: session_id
+        remote_table: session_user_count
+  type: create_object_relationship

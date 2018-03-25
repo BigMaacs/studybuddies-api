@@ -1,0 +1,8 @@
+- args:
+    name: sessions
+    table: session
+    using:
+      foreign_key_constraint_on:
+        column: session_id
+        table: session_user
+  type: create_array_relationship

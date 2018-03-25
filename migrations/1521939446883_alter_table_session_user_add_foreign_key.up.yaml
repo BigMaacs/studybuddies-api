@@ -1,0 +1,4 @@
+- args:
+    sql: ALTER TABLE "session_user" ADD FOREIGN KEY ("session_id") REFERENCES "session"
+      ("id")
+  type: run_sql

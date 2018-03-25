@@ -1,0 +1,4 @@
+- args:
+    relationship: sessions
+    table: session
+  type: drop_relationship
